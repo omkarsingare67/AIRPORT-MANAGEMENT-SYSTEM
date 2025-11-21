@@ -9,10 +9,10 @@ struct Pilot{
 struct Flight{
     char id[10];
     char airline[30];
-    char start[20];
-    char destination[20];
     char date[10];
     char time[10];
+    char start[20];
+    char destination[20];
     char duration[20];
     int seats;
     int economy;
